@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.clock-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#countdown, #countup {
+    font-size: 2em;
+    margin: 20px;
+}

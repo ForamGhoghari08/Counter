@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock Project</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Clock Project</h1>
+        <div class="input-section">
+            <label for="minutes">Enter time in minutes:</label>
+            <input type="number" id="minutes" min="0">
+            <button onclick="startClock()">Start Clock</button>
+        </div>
+        <div class="clock-section">
+            <div>
+                <h2>Count Down</h2>
+                <div id="countdown"></div>
+            </div>
+            <div>
+                <h2>Count Up</h2>
+                <div id="countup"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
